@@ -38,19 +38,18 @@ h3 {
     display: flex;
     align-items: center;
     flex: 1;
-    gap: 20px;
+    gap: 26px;
 }
 
 .media-object {
     display: flex;
     justify-content: space-between;
     align-items: start;
-
 }
 
 .information {
     max-width: 520px;
-    height: 320px;
+    max-height: 400px;
     flex: auto;
 }
 
