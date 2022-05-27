@@ -3,30 +3,11 @@ body {
     padding: 0;
     margin: 0;
     justify-content: center;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-.information h2 {
-    font-size: 48px;
-    margin: 0;
-    padding: 0;
-}
-
-.information p {
-    font-size: 18px;
-}
-
-.information button {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 6px 26px;
-    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-1 {
+    color: rgb(245, 239, 239);
     background-color: teal;
     display: flex;
     flex: 1;
@@ -39,7 +20,14 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-top: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+    flex: 1;
 }
 
 .links ul {
@@ -49,18 +37,48 @@ h3 {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 16px;
+    flex: 1;
+    gap: 20px;
 }
 
 .media-object {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    flex: 1;
+
 }
 
 .information {
-    width: 480px;
-    height: 300px;
+    max-width: 520px;
+    height: 320px;
+    flex: auto;
 }
+
+.image img {
+    max-width: 470px;
+}
+
+.information h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0 0 12px 0;
+    line-height: 0.9;
+}
+
+.information p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 26px 0;
+}
+
+.information button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 26px;
+    border-radius: 10px;
+}
+
+
+
 
