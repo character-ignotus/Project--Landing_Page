@@ -80,26 +80,40 @@ h3 {
 }
 
 .container-2 {
-    padding: 30px;
+    padding: 40px 40px 80px 40px;
     text-align: center;
-    height: 300px;
 }
 
 .title {
     margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .sub-container-2 {
     text-align: center;
     display: flex;
     justify-content: center;
-    flex: wrap;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 44px;
 }
 
 .info {
     width: 200px;
-    height: 100px;
+    font-size: 18px;
+}
+
+.card-image {
+    height: 150px;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.img-1, .img-2, .img-3, .img-4 {
+    background-image: url(images/espresso.jpg)
 }
 
 
