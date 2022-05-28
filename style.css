@@ -143,3 +143,48 @@ h3 {
     max-width: 900px;
     text-align: right;
     font-size: 24px;
+}
+
+.container-4  {
+    display: flex;
+    justify-content: center;
+    padding: 80px 120px;
+}
+
+.sub-container-4 {
+    padding: 40px 80px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    border-radius: 8px;
+}
+
+.information-section, .coffee-button {
+    align-self: center;
+}
+
+.sub-container-4 h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.sub-container-4 p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.coffee-button button{
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: teal;
+    border-color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    box-shadow: 3px 3px rgb(217, 216, 216);
+    outline: 0;
+    padding: 4px 22px;
+}
