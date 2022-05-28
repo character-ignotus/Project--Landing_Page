@@ -5,6 +5,8 @@ body {
     margin: 0;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    flex: 1;
+    min-height: 100vh;
 }
 
 .container-1 {
