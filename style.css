@@ -188,3 +188,10 @@ h3 {
     outline: 0;
     padding: 4px 22px;
 }
+
+.footer {
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
