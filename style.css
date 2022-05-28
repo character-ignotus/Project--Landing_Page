@@ -14,7 +14,7 @@ body {
     flex: 1;
     flex-direction: column;
     margin: 0;
-    padding: 0 120px 80px 120px;
+    padding: 0 120px 60px 120px;
 }
 
 .header {
@@ -46,12 +46,17 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 .information {
     max-width: 520px;
     max-height: 400px;
     flex: auto;
+}
+
+.image {
+    padding: 20px;
 }
 
 .image img {
