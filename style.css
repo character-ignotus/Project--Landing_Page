@@ -27,6 +27,15 @@ body {
     margin-top: 12px;
 }
 
+.Logo-Part {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-img img {
+    max-width: 5px;
+}
+
 h3 {
     font-size: 24px;
     margin: 0;
@@ -55,10 +64,6 @@ h3 {
     max-width: 520px;
     max-height: 400px;
     flex: auto;
-}
-
-.image {
-    padding: 20px;
 }
 
 .image img {
@@ -120,7 +125,7 @@ h3 {
 }
 
 .img-1, .img-2, .img-3, .img-4 {
-    background-image: url(images/espresso.jpg)
+    background-image: url(images/Images-1.png)
 }
 
 .container-3 {
