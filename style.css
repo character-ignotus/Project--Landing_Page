@@ -117,15 +117,26 @@ h3 {
 
 .card-image {
     height: 150px;
-    background-color: aquamarine;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
     margin-bottom: 12px;
 }
 
-.img-1, .img-2, .img-3, .img-4 {
+.img-1 {
     background-image: url(images/Images-1.png)
+}
+
+.img-2 {
+    background-image: url(images/Image-2-1.png)
+}
+
+.img-3 {
+    background-image: url(images/Image-3-1.png)
+}
+
+.img-4 {
+    background-image: url(images/Image-4-1.png)
 }
 
 .container-3 {
@@ -143,13 +154,14 @@ h3 {
 
 .quote {
     font-size: 30px;
-
+    color: rgb(78, 78, 78);
 }
 
 .author {
     max-width: 900px;
     text-align: right;
     font-size: 24px;
+    font-weight: 1000;
 }
 
 .container-4  {
