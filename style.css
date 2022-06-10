@@ -178,7 +178,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 140px;
+    flex-wrap: wrap;
+    gap: 60px;
     border-radius: 8px;
 }
 
