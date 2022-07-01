@@ -32,10 +32,6 @@ body {
     align-items: center;
 }
 
-.Logo-img img {
-    max-width: 5px;
-}
-
 h3 {
     font-size: 24px;
     margin: 0;
